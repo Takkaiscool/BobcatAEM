@@ -1,0 +1,93 @@
+11:05:53.838 DEBUG com.cognifide.qa.bb.aem.core.modules.Aem65FullModule:39 - Configuring Bobcat module: Aem65FullModule
+11:05:53.932 DEBUG com.cognifide.qa.bb.aem.core.modules.AemLoginModule:42 - Configuring Bobcat module: AemLoginModule
+11:05:53.948 DEBUG com.cognifide.qa.bb.aem.core.modules.AemSitesAdminModule:47 - Configuring Bobcat module: AemSitesAdminModule
+11:05:53.963 DEBUG com.cognifide.qa.bb.aem.core.modules.SlingPageActionsModule:40 - Configuring Bobcat module: SlingPageActionsModule
+11:05:53.963 DEBUG com.cognifide.qa.bb.aem.core.modules.AemComponentModule:51 - Configuring Bobcat module: AemComponentModule
+11:05:54.026 DEBUG com.cognifide.qa.bb.aem.core.modules.AemSidePanelModule:39 - Configuring Bobcat module: AemSidePanelModule
+11:05:54.026 DEBUG com.cognifide.qa.bb.aem.core.modules.AemPageModule:40 - Configuring Bobcat module: AemPageModule
+11:05:54.026 DEBUG com.cognifide.qa.bb.aem.core.modules.fields.DialogFieldsModule:58 - Configuring Bobcat module: DialogFieldsModule
+11:05:54.041 DEBUG com.cognifide.qa.bb.aem.core.modules.fields.FieldsRegistryModule:53 - Configuring Bobcat module: FieldsRegistryModule
+11:05:54.041 DEBUG com.cognifide.qa.bb.aem.core.modules.fields.FieldsRegistryModule:55 - Registering dialog fields...
+11:05:54.057 DEBUG com.cognifide.qa.bb.aem.core.modules.fields.FieldsRegistryModule:81 - - registering field: CHECKBOX [class com.cognifide.qa.bb.aem.core.component.dialog.dialogfields.DefaultCheckbox]
+11:05:54.057 DEBUG com.cognifide.qa.bb.aem.core.modules.fields.FieldsRegistryModule:81 - - registering field: TEXTFIELD [class com.cognifide.qa.bb.aem.core.component.dialog.dialogfields.DefaultTextfield]
+11:05:54.057 DEBUG com.cognifide.qa.bb.aem.core.modules.fields.FieldsRegistryModule:81 - - registering field: IMAGE [class com.cognifide.qa.bb.aem.core.component.dialog.dialogfields.DefaultImage]
+11:05:54.057 DEBUG com.cognifide.qa.bb.aem.core.modules.fields.FieldsRegistryModule:81 - - registering field: PATHBROWSER [class com.cognifide.qa.bb.aem.core.component.dialog.dialogfields.DefaultPathBrowser]
+11:05:54.057 DEBUG com.cognifide.qa.bb.aem.core.modules.fields.FieldsRegistryModule:81 - - registering field: SELECT [class com.cognifide.qa.bb.aem.core.component.dialog.dialogfields.DefaultSelect]
+11:05:54.057 DEBUG com.cognifide.qa.bb.aem.core.modules.fields.FieldsRegistryModule:81 - - registering field: MULTIFIELD [class com.cognifide.qa.bb.aem.core.component.dialog.dialogfields.DefaultMultifield]
+11:05:54.057 DEBUG com.cognifide.qa.bb.aem.core.modules.fields.FieldsRegistryModule:81 - - registering field: MULTIFIELD_ITEM [class com.cognifide.qa.bb.aem.core.component.dialog.dialogfields.DefaultMultifieldItem]
+11:05:54.057 DEBUG com.cognifide.qa.bb.aem.core.modules.fields.FieldsRegistryModule:81 - - registering field: RADIO_GROUP [class com.cognifide.qa.bb.aem.core.component.dialog.dialogfields.DefaultRadioGroup]
+11:05:54.057 DEBUG com.cognifide.qa.bb.aem.core.modules.fields.FieldsRegistryModule:81 - - registering field: TAGBROWSER [class com.cognifide.qa.bb.aem.core.component.dialog.dialogfields.DefaultTagBrowser]
+11:05:54.057 DEBUG com.cognifide.qa.bb.aem.core.modules.fields.FieldsRegistryModule:81 - - registering field: NUMBER_INPUT [class com.cognifide.qa.bb.aem.core.component.dialog.dialogfields.DefaultNumberInput]
+11:05:54.057 DEBUG com.cognifide.qa.bb.aem.core.modules.fields.FieldsRegistryModule:81 - - registering field: RICHTEXT [class com.cognifide.qa.bb.aem.core.component.dialog.dialogfields.DefaultRichText]
+11:05:54.057 DEBUG com.cognifide.qa.bb.aem.core.modules.fields.FieldsRegistryModule:81 - - registering field: RTE_OPTIONS [class com.cognifide.qa.bb.aem.core.component.dialog.dialogfields.rte.RteOption]
+11:05:54.057 DEBUG com.cognifide.qa.bb.aem.core.modules.fields.FieldsRegistryModule:81 - - registering field: RTE_OPTIONS_HYPERLINK [class com.cognifide.qa.bb.aem.core.component.dialog.dialogfields.rte.Hyperlink]
+11:05:54.057 DEBUG com.cognifide.qa.bb.aem.core.modules.fields.FieldsRegistryModule:81 - - registering field: RTE_OPTIONS_LISTS [class com.cognifide.qa.bb.aem.core.component.dialog.dialogfields.rte.Lists]
+11:05:54.073 DEBUG com.cognifide.qa.bb.aem.core.modules.fields.FieldsRegistryModule:81 - - registering field: RTE_OPTIONS_PARAGRAPH_FORMATS [class com.cognifide.qa.bb.aem.core.component.dialog.dialogfields.rte.ParagraphFormats]
+11:05:54.073 DEBUG com.cognifide.qa.bb.aem.core.modules.fields.FieldsRegistryModule:81 - - registering field: CONTENT_FRAGMENT_PATHBROWSER [class com.cognifide.qa.bb.aem.core.component.dialog.dialogfields.DefaultContentFragmentPathBrowser]
+11:05:55.970 INFO  com.cognifide.qa.bb.provider.selenium.webdriver.creators.ChromeDriverCreator:51 - Starting the initialization of 'chrome' WebDriver instance
+11:05:55.970 DEBUG com.cognifide.qa.bb.provider.selenium.webdriver.creators.ChromeDriverCreator:52 - Initializing WebDriver with following capabilities: Capabilities {}
+11:06:16.199 ERROR com.cognifide.qa.bb.aem.core.login.AemAuthCookieFactoryImpl:96 - Can't get AEM authentication cookie
+org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4502 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:374)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at com.cognifide.qa.bb.aem.core.login.AemAuthCookieFactoryImpl.getCookie(AemAuthCookieFactoryImpl.java:93)
+	at com.cognifide.qa.bb.aem.core.login.actions.LogIn.execute(LogIn.java:59)
+	at com.cognifide.qa.bb.api.actions.internal.DefaultController.execute(DefaultController.java:49)
+	at AEM.AEM.steps.AuthorizationSteps.I_press_login_button(AuthorizationSteps.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.core.runtime.Runtime.lambda$execute$5(Runtime.java:110)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)
+	at io.cucumber.core.runtime.Runtime.lambda$execute$6(Runtime.java:110)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at io.cucumber.core.runtime.Runtime$SameThreadExecutorService.execute(Runtime.java:233)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+	at io.cucumber.core.runtime.Runtime.lambda$run$2(Runtime.java:86)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.SliceOps$1$1.accept(SliceOps.java:204)
+	at java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1359)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at io.cucumber.core.runtime.Runtime.run(Runtime.java:87)
+	at io.cucumber.core.cli.Main.run(Main.java:92)
+	at cucumber.api.cli.Main.run(Main.java:30)
+	at cucumber.api.cli.Main.main(Main.java:15)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 50 common frames omitted

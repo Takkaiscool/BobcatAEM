@@ -1,0 +1,10 @@
+AEM/AEM/hooks/FinishReport.java
+ AEM.AEM.hooks.FinishReport
+AEM/AEM/ScenarioContext.java
+ AEM.AEM.ScenarioContext
+AEM/AEM/steps/AuthorizationSteps.java
+ AEM.AEM.steps.AuthorizationSteps
+AEM/AEM/pages/TestPage.java
+ AEM.AEM.pages.TestPage
+AEM/AEM/CucumberInjectorSource.java
+ AEM.AEM.CucumberInjectorSource
